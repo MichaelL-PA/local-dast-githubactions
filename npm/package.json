@@ -97,6 +97,7 @@
     "minimatch": "3.0.0",
     "lodash": "4.17.21",
     "shelljs": "3.0.0",
+    "simple-plist": "1.1.0",
     "Websocket-extensions": "0.1.4"
   },
   "devDependencies": {
