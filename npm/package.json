@@ -96,7 +96,9 @@
     "glob-parent": "3.1.0",
     "minimatch": "3.0.0",
     "lodash": "4.17.21",
+    "set-getter": "0.1.0",
     "shelljs": "3.0.0",
+    "shell-quote": "1.6.1",
     "simple-plist": "1.1.0",
     "Websocket-extensions": "0.1.4"
   },
