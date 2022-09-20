@@ -93,6 +93,7 @@
     "pageSetup"
   ],
   "dependencies": {
+    "array.prototype.reduce": "1.0.4",
     "glob-parent": "3.1.0",
     "minimatch": "3.0.0",
     "lodash": "4.17.21",
