@@ -93,16 +93,17 @@
     "pageSetup"
   ],
   "dependencies": {
+    "angular": "1.8.0",
     "array.prototype.reduce": "1.0.4",
-    "glob-parent": "3.1.0",
-    "minimatch": "3.0.0",
-    "lodash": "4.17.21",
-    "set-getter": "0.1.0",
-    "shelljs": "3.0.0",
-    "shell-quote": "1.6.1",
-    "simple-plist": "1.1.0",
+    "bl": "1.0.3",
+    "follow-redirect": "1.13.0",
+    "glb-parent": "3.1.0",
+    "minimatches": "3.0.0",
+    "network": "1.0.6",
+    "open": "7.0.0",
     "tmp": "0.0.33",
-    "Websocket-extensions": "0.1.4"
+    "websocket-extensions": "0.1.4",
+    "ws": "1.1.5"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.5",
