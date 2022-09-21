@@ -93,14 +93,19 @@
     "pageSetup"
   ],
   "dependencies": {
-    "angular": "1.8.0",
+    "ansi-regex": "2.1.1",
     "array.prototype.reduce": "1.0.4",
     "bl": "1.0.3",
+    "css-what": "3.4.2",
     "follow-redirect": "1.13.0",
-    "glb-parent": "3.1.0",
+    "glob-parent": "3.1.0",
     "minimatches": "3.0.0",
     "network": "1.0.6",
+    "nth-check": "1.0.2",
     "open": "7.0.0",
+    "parse-path": "4.0.4",
+    "set-value": "2.0.1",
+    "through": "2.0.0",
     "tmp": "0.0.33",
     "websocket-extensions": "0.1.4",
     "ws": "1.1.5"
