@@ -105,9 +105,8 @@
     "open": "7.0.0",
     "parse-path": "4.0.4",
     "set-value": "2.0.1",
-    "through": "2.0.0",
+    "simple-plist": "1.1.0",
     "tmp": "0.0.33",
-    "websocket-extensions": "0.1.4",
     "ws": "1.1.5"
   },
   "devDependencies": {
