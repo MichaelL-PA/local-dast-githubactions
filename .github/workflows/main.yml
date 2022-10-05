@@ -1,4 +1,3 @@
-text to cause pipeline to fail
 name: SOOS DAST GitHub Actions
 on: [push]
 jobs:
