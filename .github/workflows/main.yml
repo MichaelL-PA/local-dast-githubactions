@@ -14,6 +14,7 @@ jobs:
         api_key: ${{ secrets.SOOS_API_KEY }}
         api_url: "https://qa-api.soos.io/api/"
         #package_managers: "npm"
+        on_failure: "fail_the_build"
   soos_dast_baseline_analysis:
     name: SOOS DAST Baseline Analysis
     runs-on: ubuntu-latest
