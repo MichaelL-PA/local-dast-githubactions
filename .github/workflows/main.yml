@@ -1,34 +1,29 @@
-name: SOOS DAST GitHub Actions
 on: [push]
+ 
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  synchronous-analysis-with-blocking-result:
-    name: SOOS SCA Scan
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
     runs-on: ubuntu-latest
+    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    - uses: actions/checkout@master
-    - name: Run SOOS - Scan for vulnerabilities
-      uses: soos-io/soos-sca-github-action@v1.2.0
-      with:
-        project_name: "06-github-integration-test-sca"
-        client_id: ${{ secrets.SOOS_CLIENT_ID }}
-        api_key: ${{ secrets.SOOS_API_KEY }}
-        api_url: "https://qa-api.soos.io/api/"
-        #package_managers: "npm"
-  soos_dast_baseline_analysis:
-    name: SOOS DAST Baseline Analysis
-    runs-on: ubuntu-latest
-    steps:
-      - name: Run SOOS DAST Baseline Analysis
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+      # Runs a single command using the runners shell
+      - name: SOOS DAST
+      # You may pin to the exact commit or the version.
         uses: soos-io/soos-dast-github-action@v1.1.1
         with:
-           client_id: ${{ secrets.SOOS_CLIENT_ID }}
-           api_key: ${{ secrets.SOOS_API_KEY }}
-           project_name: "06-github-integration-test-dast"
-           api_url: "https://qa-api.soos.io/api/"
-           scan_mode: "baseline"
-           target_url: "https://brokencrystals.com/"
-           output_format: "sarif"
-      - name: Upload SOOS DAST Report
-        uses: github/codeql-action/upload-sarif@v2
+          client_id: ${{ secrets.SOOS_CLIENT_ID }}
+          api_key: ${{ secrets.SOOS_API_KEY }}
+          project_name: 'combined_scan-githubActions'
+          target_url: 'https://brokencrystals.com/'
+          api_url: 'https://qa-api.soos.io/api/'
+      - name: SOOS SCA Scan
+        uses: soos-io/soos-sca-github-action@v1.2.0
         with:
-          sarif_file: results.sarif
+          project_name: 'combined_scan-githubActions'
+          client_id: ${{ secrets.SOOS_CLIENT_ID }}
+          api_key: ${{ secrets.SOOS_API_KEY }}
+          api_url: 'https://qa-api.soos.io/api/'
