@@ -45,7 +45,12 @@
 	</build>
 
 	<dependencies>
-       
+       		<dependency>
+			<groupId>com.automationfw</groupId>
+			<artifactId>SeleniumProject</artifactId>
+			<version>0.0.5-SNAPSHOT-DEV</version>
+        	</dependency>
+
        <!-- https://mvnrepository.com/artifact/javax.mail/mail -->
 		<dependency>
 		    <groupId>javax.mail</groupId>
