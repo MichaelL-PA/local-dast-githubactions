@@ -12,7 +12,7 @@ jobs:
         project_name: "06-github-integration-test-sca"
         client_id: ${{ secrets.SOOS_CLIENT_ID }}
         api_key: ${{ secrets.SOOS_API_KEY }}
-        api_url: "https://qa-api.soos.io/api/"
+        api_url: "https://api.soos.io/api/"
         #package_managers: "npm"
         on_failure: "fail_the_build"
   soos_dast_baseline_analysis:
@@ -25,7 +25,7 @@ jobs:
            client_id: ${{ secrets.SOOS_CLIENT_ID }}
            api_key: ${{ secrets.SOOS_API_KEY }}
            project_name: "06-github-integration-test-dast"
-           api_url: "https://qa-api.soos.io/api/"
+           api_url: "https://api.soos.io/api/"
            scan_mode: "baseline"
            target_url: "https://brokencrystals.com/"
            output_format: "sarif"
