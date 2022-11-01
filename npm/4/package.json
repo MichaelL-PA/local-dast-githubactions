@@ -17,7 +17,7 @@
         "gulp": "^3.9.1",
         "gulp-babel": "^6.1.2",
         "gulp-batch": "^1.0.5",
-        "gulp-clean": "^0.3.2",
+        "gulp-clean": "^0.4.0",
         "gulp-concat": "^2.6.1",
         "gulp-csso": "^3.0.0",
         "gulp-decomment": "^0.1.3",
