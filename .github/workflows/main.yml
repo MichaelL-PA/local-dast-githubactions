@@ -13,7 +13,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: SOOS DAST
       # You may pin to the exact commit or the version.
-        uses: soos-io/soos-dast-github-action@feature/PA-6993
+        uses: soos-io/soos-dast-github-action@1.2.3
         with:
           client_id: ${{ secrets.SOOS_CLIENT_ID }}
           api_key: ${{ secrets.SOOS_API_KEY }}
@@ -21,7 +21,7 @@ jobs:
           target_url: 'https://brokencrystals.com/'
           api_url: 'https://qa-api.soos.io/api/'
       - name: SOOS SCA Scan
-        uses: soos-io/soos-sca-github-action@v1.2.0
+        uses: soos-io/soos-sca-github-action@v1.2.2
         with:
           project_name: 'combined_scan-githubActions'
           client_id: ${{ secrets.SOOS_CLIENT_ID }}
