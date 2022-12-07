@@ -1,0 +1,19 @@
+{
+  "name": "root",
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "typescript": "^4.0.5",
+    "nodemon": "^2.0.13",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@asdgf/cli": "^0.0.15",
+    "@rocket/blog": "^0.3.0",
+    "@rollup/plugin-replace": "^2.4.2",
+    "custom-elements-manifest": "^1.0.0",
+    "rocket-preset-code-tabs": "^0.2.2",
+    "watchexec-bin": "^1.0.0"
+  }
+}
