@@ -9,27 +9,8 @@ jobs:
     - name: Run SOOS - Scan for vulnerabilities
       uses: soos-io/soos-sca-github-action@v1.2.0
       with:
-        project_name: "github-integration-test-sca"
+        project_name: "github-integration-maxDirectDependencies"
         client_id: ${{ secrets.SOOS_CLIENT_ID }}
         api_key: ${{ secrets.SOOS_API_KEY }}
         api_url: "https://qa-api.soos.io/api/"
         #package_managers: "npm"
-  soos_dast_baseline_analysis:
-    name: SOOS DAST Baseline Analysis
-    runs-on: ubuntu-latest
-    steps:
-      - name: Run SOOS DAST Baseline Analysis
-        uses: soos-io/soos-dast-github-action@v1.2.3
-        with:
-           client_id: ${{ secrets.SOOS_CLIENT_ID }}
-           api_key: ${{ secrets.SOOS_API_KEY }}
-           project_name: "github-integration-test-dast"
-           api_url: "https://qa-api.soos.io/api/"
-           scan_mode: "baseline"
-           target_url: "https://brokencrystals.com/"
-           output_format: "sarif"
-           #on_failure: "continue_on_failure"
-      - name: Upload SOOS DAST Report
-        uses: github/codeql-action/upload-sarif@v2
-        with:
-          sarif_file: results.sarif
