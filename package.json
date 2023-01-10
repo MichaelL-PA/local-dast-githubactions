@@ -1,10 +1,10 @@
 {
-	"name": "package-json",
+	"name": "jose-test-package",
 	"version": "8.1.0",
 	"description": "Get metadata of a package from the npm registry",
 	"license": "MIT",
-	"repository": "sindresorhus/package-json",
-	"funding": "https://github.com/sponsors/sindresorhus",
+	"repository": "SOOS-JGomez/local-dast-githubactions",
+	"funding": "https://github.com/SOOS-JGomez/local-dast-githubactions",
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
