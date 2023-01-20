@@ -1,136 +1,136 @@
 name: SOOS DAST GitHub Actions
 on: [push]
 jobs:
-  synchronous-analysis-with-blocking-result-001:
-    name: SOOS SCA Scan 001
+  synchronous-analysis-with-blocking-result-011:
+    name: SOOS SCA Scan 011
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
     - name: Run SOOS - Scan for vulnerabilities
       uses: soos-io/soos-sca-github-action@v1.2.0
       with:
-        project_name: "github-integration-sca-001"
+        project_name: "github-integration-sca-011"
         client_id: ${{ secrets.SOOS_CLIENT_ID }}
         api_key: ${{ secrets.SOOS_API_KEY }}
         api_url: "https://qa-api.soos.io/api/"
         package_managers: "php"
-  synchronous-analysis-with-blocking-result-002:
-    name: SOOS SCA Scan 002
+  synchronous-analysis-with-blocking-result-012:
+    name: SOOS SCA Scan 012
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
     - name: Run SOOS - Scan for vulnerabilities
       uses: soos-io/soos-sca-github-action@v1.2.0
       with:
-        project_name: "github-integration-sca-002"
+        project_name: "github-integration-sca-012"
         client_id: ${{ secrets.SOOS_CLIENT_ID }}
         api_key: ${{ secrets.SOOS_API_KEY }}
         api_url: "https://qa-api.soos.io/api/"
         package_managers: "npm"
-  synchronous-analysis-with-blocking-result-003:
-    name: SOOS SCA Scan 003
+  synchronous-analysis-with-blocking-result-013:
+    name: SOOS SCA Scan 013
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
     - name: Run SOOS - Scan for vulnerabilities
       uses: soos-io/soos-sca-github-action@v1.2.0
       with:
-        project_name: "github-integration-sca-003"
+        project_name: "github-integration-sca-013"
         client_id: ${{ secrets.SOOS_CLIENT_ID }}
         api_key: ${{ secrets.SOOS_API_KEY }}
         api_url: "https://qa-api.soos.io/api/"
         package_managers: "ruby"
-  synchronous-analysis-with-blocking-result-004:
-    name: SOOS SCA Scan 004
+  synchronous-analysis-with-blocking-result-014:
+    name: SOOS SCA Scan 014
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
     - name: Run SOOS - Scan for vulnerabilities
       uses: soos-io/soos-sca-github-action@v1.2.0
       with:
-        project_name: "github-integration-sca-004"
+        project_name: "github-integration-sca-014"
         client_id: ${{ secrets.SOOS_CLIENT_ID }}
         api_key: ${{ secrets.SOOS_API_KEY }}
         api_url: "https://qa-api.soos.io/api/"
         package_managers: "rust"
-  synchronous-analysis-with-blocking-result-005:
-    name: SOOS SCA Scan 005
+  synchronous-analysis-with-blocking-result-015:
+    name: SOOS SCA Scan 015
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
     - name: Run SOOS - Scan for vulnerabilities
       uses: soos-io/soos-sca-github-action@v1.2.0
       with:
-        project_name: "github-integration-sca-005"
+        project_name: "github-integration-sca-015"
         client_id: ${{ secrets.SOOS_CLIENT_ID }}
         api_key: ${{ secrets.SOOS_API_KEY }}
         api_url: "https://qa-api.soos.io/api/"
-  synchronous-analysis-with-blocking-result-006:
-    name: SOOS SCA Scan 006
+  synchronous-analysis-with-blocking-result-016:
+    name: SOOS SCA Scan 016
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
     - name: Run SOOS - Scan for vulnerabilities
       uses: soos-io/soos-sca-github-action@v1.2.0
       with:
-        project_name: "github-integration-sca-006"
+        project_name: "github-integration-sca-016"
         client_id: ${{ secrets.SOOS_CLIENT_ID }}
         api_key: ${{ secrets.SOOS_API_KEY }}
         api_url: "https://qa-api.soos.io/api/"
         package_managers: "php"
-  synchronous-analysis-with-blocking-result-007:
-    name: SOOS SCA Scan 007
+  synchronous-analysis-with-blocking-result-017:
+    name: SOOS SCA Scan 017
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
     - name: Run SOOS - Scan for vulnerabilities
       uses: soos-io/soos-sca-github-action@v1.2.0
       with:
-        project_name: "github-integration-sca-007"
+        project_name: "github-integration-sca-017"
         client_id: ${{ secrets.SOOS_CLIENT_ID }}
         api_key: ${{ secrets.SOOS_API_KEY }}
         api_url: "https://qa-api.soos.io/api/"
         package_managers: "npm"
-  synchronous-analysis-with-blocking-result-008:
-    name: SOOS SCA Scan 008
+  synchronous-analysis-with-blocking-result-018:
+    name: SOOS SCA Scan 018
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
     - name: Run SOOS - Scan for vulnerabilities
       uses: soos-io/soos-sca-github-action@v1.2.0
       with:
-        project_name: "github-integration-sca-008"
+        project_name: "github-integration-sca-018"
         client_id: ${{ secrets.SOOS_CLIENT_ID }}
         api_key: ${{ secrets.SOOS_API_KEY }}
         api_url: "https://qa-api.soos.io/api/"
         package_managers: "rust"
-  synchronous-analysis-with-blocking-result-009:
-    name: SOOS SCA Scan 009
+  synchronous-analysis-with-blocking-result-019:
+    name: SOOS SCA Scan 019
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
     - name: Run SOOS - Scan for vulnerabilities
       uses: soos-io/soos-sca-github-action@v1.2.0
       with:
-        project_name: "github-integration-sca-009"
+        project_name: "github-integration-sca-019"
         client_id: ${{ secrets.SOOS_CLIENT_ID }}
         api_key: ${{ secrets.SOOS_API_KEY }}
         api_url: "https://qa-api.soos.io/api/"
         package_managers: "ruby"
-  synchronous-analysis-with-blocking-result-010:
-    name: SOOS SCA Scan 010
+  synchronous-analysis-with-blocking-result-020:
+    name: SOOS SCA Scan 020
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
     - name: Run SOOS - Scan for vulnerabilities
       uses: soos-io/soos-sca-github-action@v1.2.0
       with:
-        project_name: "github-integration-sca-005"
+        project_name: "github-integration-sca-020"
         client_id: ${{ secrets.SOOS_CLIENT_ID }}
         api_key: ${{ secrets.SOOS_API_KEY }}
         api_url: "https://qa-api.soos.io/api/"
-  soos_dast_baseline_analysis-001:
-    name: SOOS DAST Baseline Analysis 001
+  soos_dast_baseline_analysis-011:
+    name: SOOS DAST Baseline Analysis 011
     runs-on: ubuntu-latest
     steps:
       - name: Run SOOS DAST Baseline Analysis
@@ -138,14 +138,14 @@ jobs:
         with:
            client_id: ${{ secrets.SOOS_CLIENT_ID }}
            api_key: ${{ secrets.SOOS_API_KEY }}
-           project_name: "github-integration-test-dast-001"
+           project_name: "github-integration-test-dast-011"
            api_url: "https://qa-api.soos.io/api/"
            scan_mode: "baseline"
            target_url: "https://brokencrystals.com/"
            output_format: "sarif"
            #on_failure: "continue_on_failure"
-  soos_dast_baseline_analysis-002:
-    name: SOOS DAST Baseline Analysis 002
+  soos_dast_baseline_analysis-012:
+    name: SOOS DAST Baseline Analysis 012
     runs-on: ubuntu-latest
     steps:
       - name: Run SOOS DAST Baseline Analysis
@@ -153,14 +153,14 @@ jobs:
         with:
            client_id: ${{ secrets.SOOS_CLIENT_ID }}
            api_key: ${{ secrets.SOOS_API_KEY }}
-           project_name: "github-integration-test-dast-002"
+           project_name: "github-integration-test-dast-012"
            api_url: "https://qa-api.soos.io/api/"
            scan_mode: "baseline"
            target_url: "https://www.hackthebox.eu/"
            output_format: "sarif"
            #on_failure: "continue_on_failure"
-  soos_dast_baseline_analysis-003:
-    name: SOOS DAST Baseline Analysis 003
+  soos_dast_baseline_analysis-013:
+    name: SOOS DAST Baseline Analysis 013
     runs-on: ubuntu-latest
     steps:
       - name: Run SOOS DAST Baseline Analysis
@@ -168,14 +168,14 @@ jobs:
         with:
            client_id: ${{ secrets.SOOS_CLIENT_ID }}
            api_key: ${{ secrets.SOOS_API_KEY }}
-           project_name: "github-integration-test-dast-003"
+           project_name: "github-integration-test-dast-013"
            api_url: "https://qa-api.soos.io/api/"
            scan_mode: "baseline"
            target_url: "https://ctflearn.com/"
            output_format: "sarif"
            #on_failure: "continue_on_failure"
-  soos_dast_baseline_analysis-004:
-    name: SOOS DAST Baseline Analysis 004
+  soos_dast_baseline_analysis-014:
+    name: SOOS DAST Baseline Analysis 014
     runs-on: ubuntu-latest
     steps:
       - name: Run SOOS DAST Baseline Analysis
@@ -183,14 +183,14 @@ jobs:
         with:
            client_id: ${{ secrets.SOOS_CLIENT_ID }}
            api_key: ${{ secrets.SOOS_API_KEY }}
-           project_name: "github-integration-test-dast-004"
+           project_name: "github-integration-test-dast-014"
            api_url: "https://qa-api.soos.io/api/"
            scan_mode: "baseline"
            target_url: "http://www.itsecgames.com/"
            output_format: "sarif"
            #on_failure: "continue_on_failure"
-  soos_dast_baseline_analysis-005:
-    name: SOOS DAST Baseline Analysis 005
+  soos_dast_baseline_analysis-015:
+    name: SOOS DAST Baseline Analysis 015
     runs-on: ubuntu-latest
     steps:
       - name: Run SOOS DAST Baseline Analysis
@@ -198,14 +198,14 @@ jobs:
         with:
            client_id: ${{ secrets.SOOS_CLIENT_ID }}
            api_key: ${{ secrets.SOOS_API_KEY }}
-           project_name: "github-integration-test-dast-005"
+           project_name: "github-integration-test-dast-015"
            api_url: "https://qa-api.soos.io/api/"
            scan_mode: "baseline"
            target_url: "https://www.hackthissite.org/"
            output_format: "sarif"
            #on_failure: "continue_on_failure"
-  soos_dast_baseline_analysis-006:
-    name: SOOS DAST Baseline Analysis 006
+  soos_dast_baseline_analysis-016:
+    name: SOOS DAST Baseline Analysis 016
     runs-on: ubuntu-latest
     steps:
       - name: Run SOOS DAST Baseline Analysis
@@ -213,14 +213,14 @@ jobs:
         with:
            client_id: ${{ secrets.SOOS_CLIENT_ID }}
            api_key: ${{ secrets.SOOS_API_KEY }}
-           project_name: "github-integration-test-dast-006"
+           project_name: "github-integration-test-dast-016"
            api_url: "https://qa-api.soos.io/api/"
            scan_mode: "baseline"
            target_url: "https://brokencrystals.com/"
            output_format: "sarif"
            #on_failure: "continue_on_failure"
-  soos_dast_baseline_analysis-007:
-    name: SOOS DAST Baseline Analysis 007
+  soos_dast_baseline_analysis-017:
+    name: SOOS DAST Baseline Analysis 017
     runs-on: ubuntu-latest
     steps:
       - name: Run SOOS DAST Baseline Analysis
@@ -228,14 +228,14 @@ jobs:
         with:
            client_id: ${{ secrets.SOOS_CLIENT_ID }}
            api_key: ${{ secrets.SOOS_API_KEY }}
-           project_name: "github-integration-test-dast-007"
+           project_name: "github-integration-test-dast-017"
            api_url: "https://qa-api.soos.io/api/"
            scan_mode: "baseline"
            target_url: "https://brokencrystals.com/"
            output_format: "sarif"
            #on_failure: "continue_on_failure"
-  soos_dast_baseline_analysis-008:
-    name: SOOS DAST Baseline Analysis 008
+  soos_dast_baseline_analysis-018:
+    name: SOOS DAST Baseline Analysis 018
     runs-on: ubuntu-latest
     steps:
       - name: Run SOOS DAST Baseline Analysis
@@ -243,14 +243,14 @@ jobs:
         with:
            client_id: ${{ secrets.SOOS_CLIENT_ID }}
            api_key: ${{ secrets.SOOS_API_KEY }}
-           project_name: "github-integration-test-dast-008"
+           project_name: "github-integration-test-dast-018"
            api_url: "https://qa-api.soos.io/api/"
            scan_mode: "baseline"
            target_url: "https://brokencrystals.com/"
            output_format: "sarif"
            #on_failure: "continue_on_failure"
-  soos_dast_baseline_analysis-009:
-    name: SOOS DAST Baseline Analysis 009
+  soos_dast_baseline_analysis-019:
+    name: SOOS DAST Baseline Analysis 019
     runs-on: ubuntu-latest
     steps:
       - name: Run SOOS DAST Baseline Analysis
@@ -258,14 +258,14 @@ jobs:
         with:
            client_id: ${{ secrets.SOOS_CLIENT_ID }}
            api_key: ${{ secrets.SOOS_API_KEY }}
-           project_name: "github-integration-test-dast-009"
+           project_name: "github-integration-test-dast-019"
            api_url: "https://qa-api.soos.io/api/"
            scan_mode: "baseline"
            target_url: "https://brokencrystals.com/"
            output_format: "sarif"
            #on_failure: "continue_on_failure"
-  soos_dast_baseline_analysis-010:
-    name: SOOS DAST Baseline Analysis 010
+  soos_dast_baseline_analysis-020:
+    name: SOOS DAST Baseline Analysis 020
     runs-on: ubuntu-latest
     steps:
       - name: Run SOOS DAST Baseline Analysis
@@ -273,7 +273,7 @@ jobs:
         with:
            client_id: ${{ secrets.SOOS_CLIENT_ID }}
            api_key: ${{ secrets.SOOS_API_KEY }}
-           project_name: "github-integration-test-dast-010"
+           project_name: "github-integration-test-dast-020"
            api_url: "https://qa-api.soos.io/api/"
            scan_mode: "baseline"
            target_url: "https://brokencrystals.com/"
