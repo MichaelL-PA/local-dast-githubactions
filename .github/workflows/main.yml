@@ -52,7 +52,7 @@ jobs:
         client_id: ${{ secrets.SOOS_CLIENT_ID }}
         api_key: ${{ secrets.SOOS_API_KEY }}
         api_url: "https://qa-api.soos.io/api/"
-        package_managers: "java"
+        package_managers: "rust"
   synchronous-analysis-with-blocking-result-005:
     name: SOOS SCA Scan 005
     runs-on: ubuntu-latest
@@ -103,7 +103,7 @@ jobs:
         client_id: ${{ secrets.SOOS_CLIENT_ID }}
         api_key: ${{ secrets.SOOS_API_KEY }}
         api_url: "https://qa-api.soos.io/api/"
-        package_managers: "java"
+        package_managers: "rust"
   synchronous-analysis-with-blocking-result-009:
     name: SOOS SCA Scan 009
     runs-on: ubuntu-latest
