@@ -1,21 +1,128 @@
 name: SOOS DAST GitHub Actions
 on: [push]
 jobs:
-  synchronous-analysis-with-blocking-result:
-    name: SOOS SCA Scan
+  synchronous-analysis-with-blocking-result-001:
+    name: SOOS SCA Scan 001
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
     - name: Run SOOS - Scan for vulnerabilities
       uses: soos-io/soos-sca-github-action@v1.2.0
       with:
-        project_name: "github-integration-test-sca-010"
+        project_name: "github-test-sca-001"
         client_id: ${{ secrets.SOOS_CLIENT_ID }}
         api_key: ${{ secrets.SOOS_API_KEY }}
         api_url: "https://qa-api.soos.io/api/"
-        #package_managers: "npm"
-  soos_dast_baseline_analysis:
-    name: SOOS DAST Baseline Analysis
+  synchronous-analysis-with-blocking-result-002:
+    name: SOOS SCA Scan 002
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Run SOOS - Scan for vulnerabilities
+      uses: soos-io/soos-sca-github-action@v1.2.0
+      with:
+        project_name: "github-test-sca-002"
+        client_id: ${{ secrets.SOOS_CLIENT_ID }}
+        api_key: ${{ secrets.SOOS_API_KEY }}
+        api_url: "https://qa-api.soos.io/api/"
+  synchronous-analysis-with-blocking-result-003:
+    name: SOOS SCA Scan 003
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Run SOOS - Scan for vulnerabilities
+      uses: soos-io/soos-sca-github-action@v1.2.0
+      with:
+        project_name: "github-test-sca-003"
+        client_id: ${{ secrets.SOOS_CLIENT_ID }}
+        api_key: ${{ secrets.SOOS_API_KEY }}
+        api_url: "https://qa-api.soos.io/api/"
+  synchronous-analysis-with-blocking-result-004:
+    name: SOOS SCA Scan 004
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Run SOOS - Scan for vulnerabilities
+      uses: soos-io/soos-sca-github-action@v1.2.0
+      with:
+        project_name: "github-test-sca-004"
+        client_id: ${{ secrets.SOOS_CLIENT_ID }}
+        api_key: ${{ secrets.SOOS_API_KEY }}
+        api_url: "https://qa-api.soos.io/api/"
+  synchronous-analysis-with-blocking-result-005:
+    name: SOOS SCA Scan 005
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Run SOOS - Scan for vulnerabilities
+      uses: soos-io/soos-sca-github-action@v1.2.0
+      with:
+        project_name: "github-test-sca-005"
+        client_id: ${{ secrets.SOOS_CLIENT_ID }}
+        api_key: ${{ secrets.SOOS_API_KEY }}
+        api_url: "https://qa-api.soos.io/api/"
+  synchronous-analysis-with-blocking-result-006:
+    name: SOOS SCA Scan 006
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Run SOOS - Scan for vulnerabilities
+      uses: soos-io/soos-sca-github-action@v1.2.0
+      with:
+        project_name: "github-test-sca-006"
+        client_id: ${{ secrets.SOOS_CLIENT_ID }}
+        api_key: ${{ secrets.SOOS_API_KEY }}
+        api_url: "https://qa-api.soos.io/api/"
+  synchronous-analysis-with-blocking-result-007:
+    name: SOOS SCA Scan 007
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Run SOOS - Scan for vulnerabilities
+      uses: soos-io/soos-sca-github-action@v1.2.0
+      with:
+        project_name: "github-test-sca-007"
+        client_id: ${{ secrets.SOOS_CLIENT_ID }}
+        api_key: ${{ secrets.SOOS_API_KEY }}
+        api_url: "https://qa-api.soos.io/api/"
+  synchronous-analysis-with-blocking-result-008:
+    name: SOOS SCA Scan 008
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Run SOOS - Scan for vulnerabilities
+      uses: soos-io/soos-sca-github-action@v1.2.0
+      with:
+        project_name: "github-test-sca-008"
+        client_id: ${{ secrets.SOOS_CLIENT_ID }}
+        api_key: ${{ secrets.SOOS_API_KEY }}
+        api_url: "https://qa-api.soos.io/api/"
+  synchronous-analysis-with-blocking-result-009:
+    name: SOOS SCA Scan 009
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Run SOOS - Scan for vulnerabilities
+      uses: soos-io/soos-sca-github-action@v1.2.0
+      with:
+        project_name: "github-test-sca-009"
+        client_id: ${{ secrets.SOOS_CLIENT_ID }}
+        api_key: ${{ secrets.SOOS_API_KEY }}
+        api_url: "https://qa-api.soos.io/api/"
+  synchronous-analysis-with-blocking-result-010:
+    name: SOOS SCA Scan 010
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Run SOOS - Scan for vulnerabilities
+      uses: soos-io/soos-sca-github-action@v1.2.0
+      with:
+        project_name: "github-test-sca-010"
+        client_id: ${{ secrets.SOOS_CLIENT_ID }}
+        api_key: ${{ secrets.SOOS_API_KEY }}
+        api_url: "https://qa-api.soos.io/api/"
+  soos_dast_baseline_analysis_001:
+    name: SOOS DAST Baseline Analysis 001
     runs-on: ubuntu-latest
     steps:
       - name: Run SOOS DAST Baseline Analysis
@@ -23,13 +130,124 @@ jobs:
         with:
            client_id: ${{ secrets.SOOS_CLIENT_ID }}
            api_key: ${{ secrets.SOOS_API_KEY }}
-           project_name: "github-integration-test-dast-010"
+           project_name: "github-test-dast-001"
            api_url: "https://qa-api.soos.io/api/"
            scan_mode: "baseline"
-           target_url: "https://brokencrystals.com/"
-           output_format: "sarif"
-           #on_failure: "continue_on_failure"
-      - name: Upload SOOS DAST Report
-        uses: github/codeql-action/upload-sarif@v2
+           target_url: "https://soos.io/"
+   soos_dast_baseline_analysis_002:
+    name: SOOS DAST Baseline Analysis 002
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run SOOS DAST Baseline Analysis
+        uses: soos-io/soos-dast-github-action@v1.2.3
         with:
-          sarif_file: results.sarif
+           client_id: ${{ secrets.SOOS_CLIENT_ID }}
+           api_key: ${{ secrets.SOOS_API_KEY }}
+           project_name: "github-test-dast-002"
+           api_url: "https://qa-api.soos.io/api/"
+           scan_mode: "baseline"
+           target_url: "https://soos.io/"
+   soos_dast_baseline_analysis_003:
+    name: SOOS DAST Baseline Analysis 001¡3
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run SOOS DAST Baseline Analysis
+        uses: soos-io/soos-dast-github-action@v1.2.3
+        with:
+           client_id: ${{ secrets.SOOS_CLIENT_ID }}
+           api_key: ${{ secrets.SOOS_API_KEY }}
+           project_name: "github-test-dast-003"
+           api_url: "https://qa-api.soos.io/api/"
+           scan_mode: "baseline"
+           target_url: "https://soos.io/"
+   soos_dast_baseline_analysis_004:
+    name: SOOS DAST Baseline Analysis 004
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run SOOS DAST Baseline Analysis
+        uses: soos-io/soos-dast-github-action@v1.2.3
+        with:
+           client_id: ${{ secrets.SOOS_CLIENT_ID }}
+           api_key: ${{ secrets.SOOS_API_KEY }}
+           project_name: "github-test-dast-004"
+           api_url: "https://qa-api.soos.io/api/"
+           scan_mode: "baseline"
+           target_url: "https://soos.io/"
+   soos_dast_baseline_analysis_005:
+    name: SOOS DAST Baseline Analysis 005
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run SOOS DAST Baseline Analysis
+        uses: soos-io/soos-dast-github-action@v1.2.3
+        with:
+           client_id: ${{ secrets.SOOS_CLIENT_ID }}
+           api_key: ${{ secrets.SOOS_API_KEY }}
+           project_name: "github-test-dast-005"
+           api_url: "https://qa-api.soos.io/api/"
+           scan_mode: "baseline"
+           target_url: "https://soos.io/"
+   soos_dast_baseline_analysis_006:
+    name: SOOS DAST Baseline Analysis 006
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run SOOS DAST Baseline Analysis
+        uses: soos-io/soos-dast-github-action@v1.2.3
+        with:
+           client_id: ${{ secrets.SOOS_CLIENT_ID }}
+           api_key: ${{ secrets.SOOS_API_KEY }}
+           project_name: "github-test-dast-006"
+           api_url: "https://qa-api.soos.io/api/"
+           scan_mode: "baseline"
+           target_url: "https://soos.io/"
+   soos_dast_baseline_analysis_007:
+    name: SOOS DAST Baseline Analysis 007
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run SOOS DAST Baseline Analysis
+        uses: soos-io/soos-dast-github-action@v1.2.3
+        with:
+           client_id: ${{ secrets.SOOS_CLIENT_ID }}
+           api_key: ${{ secrets.SOOS_API_KEY }}
+           project_name: "github-test-dast-007"
+           api_url: "https://qa-api.soos.io/api/"
+           scan_mode: "baseline"
+           target_url: "https://soos.io/"
+   soos_dast_baseline_analysis_008:
+    name: SOOS DAST Baseline Analysis 008
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run SOOS DAST Baseline Analysis
+        uses: soos-io/soos-dast-github-action@v1.2.3
+        with:
+           client_id: ${{ secrets.SOOS_CLIENT_ID }}
+           api_key: ${{ secrets.SOOS_API_KEY }}
+           project_name: "github-test-dast-008"
+           api_url: "https://qa-api.soos.io/api/"
+           scan_mode: "baseline"
+           target_url: "https://soos.io/"
+   soos_dast_baseline_analysis_009:
+    name: SOOS DAST Baseline Analysis 009
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run SOOS DAST Baseline Analysis
+        uses: soos-io/soos-dast-github-action@v1.2.3
+        with:
+           client_id: ${{ secrets.SOOS_CLIENT_ID }}
+           api_key: ${{ secrets.SOOS_API_KEY }}
+           project_name: "github-test-dast-009"
+           api_url: "https://qa-api.soos.io/api/"
+           scan_mode: "baseline"
+           target_url: "https://soos.io/"
+   soos_dast_baseline_analysis_010:
+    name: SOOS DAST Baseline Analysis 010
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run SOOS DAST Baseline Analysis
+        uses: soos-io/soos-dast-github-action@v1.2.3
+        with:
+           client_id: ${{ secrets.SOOS_CLIENT_ID }}
+           api_key: ${{ secrets.SOOS_API_KEY }}
+           project_name: "github-test-dast-010"
+           api_url: "https://qa-api.soos.io/api/"
+           scan_mode: "baseline"
+           target_url: "https://soos.io/"
