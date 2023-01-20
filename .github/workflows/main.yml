@@ -17,13 +17,13 @@ jobs:
         with:
           client_id: ${{ secrets.SOOS_CLIENT_ID }}
           api_key: ${{ secrets.SOOS_API_KEY }}
-          project_name: 'combined_scan-githubActions-011'
+          project_name: 'combined_scan-githubActions-012'
           target_url: 'https://brokencrystals.com/'
           api_url: 'https://qa-api.soos.io/api/'
       - name: SOOS SCA Scan
         uses: soos-io/soos-sca-github-action@v1.2.0
         with:
-          project_name: 'combined_scan-githubActions-011'
+          project_name: 'combined_scan-githubActions-012'
           client_id: ${{ secrets.SOOS_CLIENT_ID }}
           api_key: ${{ secrets.SOOS_API_KEY }}
           api_url: 'https://qa-api.soos.io/api/'
