@@ -14,19 +14,6 @@ jobs:
         api_key: ${{ secrets.SOOS_API_KEY }}
         api_url: "https://qa-api.soos.io/api/"
         #package_managers: "npm"
-  synchronous-analysis-with-blocking-result-2:
-    name: SOOS SCA Scan 2
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@master
-    - name: Run SOOS - Scan for vulnerabilities
-      uses: soos-io/soos-sca-github-action@v1.2.0
-      with:
-        project_name: "github-integration-test-sca-014"
-        client_id: ${{ secrets.SOOS_CLIENT_ID }}
-        api_key: ${{ secrets.SOOS_API_KEY }}
-        api_url: "https://qa-api.soos.io/api/"
-        package_managers: "npm"
   soos_dast_baseline_analysis:
     name: SOOS DAST Baseline Analysis
     runs-on: ubuntu-latest
