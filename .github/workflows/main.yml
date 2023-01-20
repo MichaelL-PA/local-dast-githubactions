@@ -77,6 +77,7 @@ jobs:
         client_id: ${{ secrets.SOOS_CLIENT_ID }}
         api_key: ${{ secrets.SOOS_API_KEY }}
         api_url: "https://qa-api.soos.io/api/"
+        package_managers: "php"
   synchronous-analysis-with-blocking-result-007:
     name: SOOS SCA Scan 007
     runs-on: ubuntu-latest
@@ -89,6 +90,7 @@ jobs:
         client_id: ${{ secrets.SOOS_CLIENT_ID }}
         api_key: ${{ secrets.SOOS_API_KEY }}
         api_url: "https://qa-api.soos.io/api/"
+        package_managers: "npm"
   synchronous-analysis-with-blocking-result-008:
     name: SOOS SCA Scan 008
     runs-on: ubuntu-latest
@@ -101,6 +103,7 @@ jobs:
         client_id: ${{ secrets.SOOS_CLIENT_ID }}
         api_key: ${{ secrets.SOOS_API_KEY }}
         api_url: "https://qa-api.soos.io/api/"
+        package_managers: "java"
   synchronous-analysis-with-blocking-result-009:
     name: SOOS SCA Scan 009
     runs-on: ubuntu-latest
@@ -113,6 +116,7 @@ jobs:
         client_id: ${{ secrets.SOOS_CLIENT_ID }}
         api_key: ${{ secrets.SOOS_API_KEY }}
         api_url: "https://qa-api.soos.io/api/"
+        package_managers: "ruby"
   synchronous-analysis-with-blocking-result-010:
     name: SOOS SCA Scan 010
     runs-on: ubuntu-latest
@@ -152,7 +156,7 @@ jobs:
            project_name: "github-integration-test-dast-002"
            api_url: "https://qa-api.soos.io/api/"
            scan_mode: "baseline"
-           target_url: "https://brokencrystals.com/"
+           target_url: "https://www.hackthebox.eu/"
            output_format: "sarif"
            #on_failure: "continue_on_failure"
   soos_dast_baseline_analysis-003:
@@ -167,7 +171,7 @@ jobs:
            project_name: "github-integration-test-dast-003"
            api_url: "https://qa-api.soos.io/api/"
            scan_mode: "baseline"
-           target_url: "https://brokencrystals.com/"
+           target_url: "https://ctflearn.com/"
            output_format: "sarif"
            #on_failure: "continue_on_failure"
   soos_dast_baseline_analysis-004:
@@ -182,7 +186,7 @@ jobs:
            project_name: "github-integration-test-dast-004"
            api_url: "https://qa-api.soos.io/api/"
            scan_mode: "baseline"
-           target_url: "https://brokencrystals.com/"
+           target_url: "http://www.itsecgames.com/"
            output_format: "sarif"
            #on_failure: "continue_on_failure"
   soos_dast_baseline_analysis-005:
@@ -197,7 +201,7 @@ jobs:
            project_name: "github-integration-test-dast-005"
            api_url: "https://qa-api.soos.io/api/"
            scan_mode: "baseline"
-           target_url: "https://brokencrystals.com/"
+           target_url: "https://www.hackthissite.org/"
            output_format: "sarif"
            #on_failure: "continue_on_failure"
   soos_dast_baseline_analysis-006:
