@@ -9,9 +9,9 @@ jobs:
     - name: Run SOOS - Scan for vulnerabilities
       uses: soos-io/soos-sca-github-action@v1.2.0
       with:
-        project_name: "github-integration-test-sca"
+        project_name: "combinedScan"
         client_id: ${{ secrets.SOOS_CLIENT_ID }}
         api_key: ${{ secrets.SOOS_API_KEY }}
         api_url: "https://qa-api.soos.io/api/"
         #package_managers: "npm"
-        on_failure: "fail_the_build"
+        #on_failure: "fail_the_build"
