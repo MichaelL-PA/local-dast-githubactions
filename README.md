@@ -1,5 +1,5 @@
 # local-dast-githubactions
-test 6
+test 7
 
 Community User:
 
