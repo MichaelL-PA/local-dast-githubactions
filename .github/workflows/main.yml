@@ -19,13 +19,13 @@ jobs:
           api_key: ${{ secrets.SOOS_API_KEY }}
           project_name: 'combinedScan'
           target_url: 'https://brokencrystals.com/'
-          api_url: 'https://qa-api.soos.io/api/'
-          on_failure: 'fail_the_build'
+          api_url: 'https://api.soos.io/api/'
+          #on_failure: 'fail_the_build'
       - name: SOOS SCA Scan
         uses: soos-io/soos-sca-github-action@v1.2.0
         with:
           project_name: 'combinedScan'
           client_id: ${{ secrets.SOOS_CLIENT_ID }}
           api_key: ${{ secrets.SOOS_API_KEY }}
-          api_url: 'https://qa-api.soos.io/api/'
-          on_failure: 'fail_the_build'
+          api_url: 'https://api.soos.io/api/'
+          #on_failure: 'fail_the_build'
