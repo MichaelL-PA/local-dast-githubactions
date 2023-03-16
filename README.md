@@ -7,12 +7,12 @@ The same but with branch: [![Dependency Vulnerabilities](https://img.shields.io/
 
 ---------------------------------------------
 
-Community - Scan based - Vulnerabilities - No Branch - 4: [![Dependency Vulnerabilities](https://img.shields.io/endpoint?url=https%3A%2F%2Fqa-api-hooks.soos.io%2Fapi%2Fshieldsio-badges%3FbadgeType%3DDependencyVulnerabilities%26pid%3Dnb4b2yiij)](https://qa-app.soos.io) [![Dependency Vulnerabilities](https://img.shields.io/endpoint?url=https%3A%2F%2Fqa-api-hooks.soos.io%2Fapi%2Fshieldsio-badges%3FbadgeType%3DDependencyVulnerabilities%26pid%3Dnb4b2yiij%26branchName%3Dreleases%252F1.0.3)](https://qa-app.soos.io)
+Community - Scan based - Vulnerabilities - No Branch - 4: [![Dependency Vulnerabilities](https://img.shields.io/endpoint?url=https%3A%2F%2Fqa-api-hooks.soos.io%2Fapi%2Fshieldsio-badges%3FbadgeType%3DDependencyVulnerabilities%26pid%3Dnb4b2yiij)](https://qa-app.soos.io) 
 
-Community - Scan based - OOD Dependencies - No Branch - 2: [![Out Of Date Dependencies](https://img.shields.io/endpoint?url=https%3A%2F%2Fqa-api-hooks.soos.io%2Fapi%2Fshieldsio-badges%3FbadgeType%3DOutOfDateDependencies%26pid%3Dnb4b2yiij)](https://qa-app.soos.io) [![Out Of Date Dependencies](https://img.shields.io/endpoint?url=https%3A%2F%2Fqa-api-hooks.soos.io%2Fapi%2Fshieldsio-badges%3FbadgeType%3DOutOfDateDependencies%26pid%3Dnb4b2yiij%26branchName%3Dreleases%252F1.0.3)](https://qa-app.soos.io)
+Community - Scan based - OOD Dependencies - No Branch - 2: [![Out Of Date Dependencies](https://img.shields.io/endpoint?url=https%3A%2F%2Fqa-api-hooks.soos.io%2Fapi%2Fshieldsio-badges%3FbadgeType%3DOutOfDateDependencies%26pid%3Dnb4b2yiij)](https://qa-app.soos.io)
 
-Community - Scan based - Vulnerabilities - Branch 1.0.3 - 4:
-Community - Scan based - OOD Dependencies - Branch 1.0.3 - 2:
+Community - Scan based - Vulnerabilities - Branch 1.0.3 - 4: [![Dependency Vulnerabilities](https://img.shields.io/endpoint?url=https%3A%2F%2Fqa-api-hooks.soos.io%2Fapi%2Fshieldsio-badges%3FbadgeType%3DDependencyVulnerabilities%26pid%3Dnb4b2yiij%26branchName%3Dreleases%252F1.0.3)](https://qa-app.soos.io)
+Community - Scan based - OOD Dependencies - Branch 1.0.3 - 2: [![Out Of Date Dependencies](https://img.shields.io/endpoint?url=https%3A%2F%2Fqa-api-hooks.soos.io%2Fapi%2Fshieldsio-badges%3FbadgeType%3DOutOfDateDependencies%26pid%3Dnb4b2yiij%26branchName%3Dreleases%252F1.0.3)](https://qa-app.soos.io)
 
 Community - Scan based - Vulnerabilities - Branch 1.0.4 - 3: [![Dependency Vulnerabilities](https://img.shields.io/endpoint?url=https%3A%2F%2Fqa-api-hooks.soos.io%2Fapi%2Fshieldsio-badges%3FbadgeType%3DDependencyVulnerabilities%26pid%3Dnb4b2yiij%26branchName%3Dfeature%252F1.0.4)](https://qa-app.soos.io)
 
