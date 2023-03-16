@@ -18,3 +18,7 @@ Community - Scan based - OOD Dependencies - Branch 1.0.3 - 2: [![Out Of Date Dep
 Community - Scan based - Vulnerabilities - Branch 1.0.4 - 3: [![Dependency Vulnerabilities](https://img.shields.io/endpoint?url=https%3A%2F%2Fqa-api-hooks.soos.io%2Fapi%2Fshieldsio-badges%3FbadgeType%3DDependencyVulnerabilities%26pid%3Dnb4b2yiij%26branchName%3Dfeature%252F1.0.4)](https://qa-app.soos.io)
 
 Community - Scan based - OOD Dependencies - Branch 1.0.4 - 1: [![Out Of Date Dependencies](https://img.shields.io/endpoint?url=https%3A%2F%2Fqa-api-hooks.soos.io%2Fapi%2Fshieldsio-badges%3FbadgeType%3DOutOfDateDependencies%26pid%3Dnb4b2yiij%26branchName%3Dfeature%252F1.0.4)](https://qa-app.soos.io)
+
+-----------------------------------------------
+
+Community - Package based - VEX Export - Vers 1.1.2: [![CSAF VEX](https://img.shields.io/endpoint?url=https%3A%2F%2Fqa-api-hooks.soos.io%2Fapi%2Fshieldsio-badges%3FbadgeType%3DVexSbom%26pid%3Dnb4b2yiij%26packageVersion%3D1.1.2)](https://qa-app.soos.io/research/packages/NPM/@soos-io/sample-project/version/1.1.2?attributionFormat=CsafVex)
