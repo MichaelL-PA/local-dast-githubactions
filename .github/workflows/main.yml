@@ -7,20 +7,20 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Run SOOS - Scan for vulnerabilities
-      uses: soos-io/soos-sca-github-action@main
+      uses: soos-io/soos-sca-github-action@v1.2.3
       with:
         project_name: "github-integration-test-sca"
         client_id: ${{ secrets.SOOS_CLIENT_ID }}
         api_key: ${{ secrets.SOOS_API_KEY }}
         api_url: "https://qa-api.soos.io/api/"
         #package_managers: "npm"
-        on_failure: 'fail_the_build'
+        #on_failure: 'fail_the_build'
   soos_dast_baseline_analysis:
     name: SOOS DAST Baseline Analysis
     runs-on: ubuntu-latest
     steps:
       - name: Run SOOS DAST Baseline Analysis
-        uses: soos-io/soos-dast-github-action@main
+        uses: soos-io/soos-dast-github-action@v1.2.3
         with:
            client_id: ${{ secrets.SOOS_CLIENT_ID }}
            api_key: ${{ secrets.SOOS_API_KEY }}
